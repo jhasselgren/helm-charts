@@ -124,3 +124,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+args:
+  - "text=\"hello world from my-app\""
