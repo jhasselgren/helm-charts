@@ -26,4 +26,19 @@ entries:
     urls:
     - https://github.com/jhasselgren/helm-charts/releases/download/helm-0.1.0/helm-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-30T09:54:50.876975742Z"
+  my-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-06-30T09:58:26.295986181Z"
+    dependencies:
+    - name: basic-app
+      repository: file://../../libs/basic-app
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 18d84cc035f89ba5eaed0aa1dc3bf9926551264854acc55a0040879d01ad0ef3
+    name: my-app
+    type: application
+    urls:
+    - https://github.com/jhasselgren/helm-charts/releases/download/my-app-0.1.0/my-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-06-30T09:58:26.295995409Z"
