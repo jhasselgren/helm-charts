@@ -126,4 +126,4 @@ tolerations: []
 affinity: {}
 
 args:
-  - "text=\"hello world from my-app\""
+  - "-text=\"hello world from my-app\""
