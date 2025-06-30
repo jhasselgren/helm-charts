@@ -1,3 +1,4 @@
+{{- define "basic-app.service" -}}
 apiVersion: v1
 kind: Service
 metadata:
@@ -13,3 +14,4 @@ spec:
       name: http
   selector:
     {{- include "basic-app.selectorLabels" . | nindent 4 }}
+{{- end }}

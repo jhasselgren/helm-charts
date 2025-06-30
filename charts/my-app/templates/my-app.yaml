@@ -1,0 +1,9 @@
+{{ include "basic-app.deployment" . }}
+---
+{{ include "basic-app.ingress" . }}
+---
+{{ include "basic-app.service" . }}
+---
+{{ include "basic-app.hpa" . }}
+---
+{{ include "basic-app.serviceaccount" . }}

@@ -1,0 +1,6 @@
+dependencies:
+- name: basic-app
+  repository: file://../../libs/basic-app
+  version: 0.1.0
+digest: sha256:e26908bb1ba280a4f102e45c6fe9df604c02931dbd4ea5ba2afad111a9d2f026
+generated: "2025-06-30T11:37:41.800454+02:00"
