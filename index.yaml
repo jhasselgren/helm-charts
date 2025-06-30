@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  basic-app:
+  - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2025-06-30T09:23:13.160187569Z"
+    description: A Helm chart for Kubernetes
+    digest: 3bd707c5fb74d87b832f69871b3198af2a74e961d1bf8649362fdcc823845bc3
+    name: basic-app
+    type: application
+    urls:
+    - https://github.com/jhasselgren/helm-charts/releases/download/basic-app-0.1.0/basic-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-06-30T09:23:13.160197157Z"
