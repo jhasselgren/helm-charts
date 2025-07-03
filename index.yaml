@@ -3,6 +3,20 @@ entries:
   my-app:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-07-03T07:25:09.493286041Z"
+    dependencies:
+    - name: basic-app
+      repository: file://../../libs/basic-app
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 53a3c429f96a14dbfdf5a9f6027cbe45d8bcee6733bd817e978bd20b943263f1
+    name: my-app
+    type: application
+    urls:
+    - https://github.com/jhasselgren/helm-charts/releases/download/my-app-0.1.3/my-app-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-06-30T10:31:05.022417995Z"
     dependencies:
     - name: basic-app
@@ -43,4 +57,4 @@ entries:
     urls:
     - https://github.com/jhasselgren/helm-charts/releases/download/my-app-0.1.0/my-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-30T10:31:05.022435317Z"
+generated: "2025-07-03T07:25:09.493305648Z"
